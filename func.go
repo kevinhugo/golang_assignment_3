@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main() {
-	names := []string{"Mr","Sir","Bro","Friend","Kevin","Hugo"}
+	names := []string{"Mr","Sir","Bro","Friend","Kevin","Hugo","Ke","Vin","Hu","Go"}
 	var pointers []*string
 	for key, _ := range names {
 		pointers = append(pointers, &names[key])
